@@ -61,6 +61,6 @@ public class ServApplication {
 		long minutes = tempDateTime.until(newYear, ChronoUnit.MINUTES );
 		tempDateTime = tempDateTime.plusMinutes( minutes );
 
-		return String.format("Time for new 2021 year: %s days %s hours %s minutes !", days, hours, minutes);
+		return String.format("Time for new 2021 year: %s days %s hours %s minutes!", days, hours, minutes);
 	}
 }
